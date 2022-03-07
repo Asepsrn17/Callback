@@ -7,9 +7,9 @@
         table.innerHTML = render(response);
     });
 
-    function render(response) {
+    function render(result) {
         let table = "";
-        response.forEach((data) => {
+        result.forEach((data) => {
           table += `<tr>
                       <td>${data.id}</td>
                       <td>${data.name}</td>
