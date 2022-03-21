@@ -3,3 +3,9 @@
     padding: 10px;
     font-family: sans-serif;
 }
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    padding: 10px;
+}
