@@ -8,7 +8,7 @@ fetch ("https://jsonplaceholder.typicode.com/users")
 .then (response => {
     console.log(response);
   //  table.innerHTML = myPersonData.render(response);
-    const columns = ["id", "name", "email", "phone", "username", "website","company", "city"];
+    const columns = ["Id", "Name", "Email", "Phone", "Username", "Website","Company", "City"];
     const data = response.map((d) => [
         d.id,
         d.name,
